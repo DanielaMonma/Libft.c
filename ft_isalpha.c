@@ -6,11 +6,9 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 15:12:43 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/22 17:19:49 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:08:17 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isalpha(int c)
 {

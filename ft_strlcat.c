@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 15:14:36 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/26 18:30:32 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:12:02 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include	<stdlib.h>
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

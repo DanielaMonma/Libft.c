@@ -6,7 +6,7 @@
 #    By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/22 14:44:24 by danielpe          #+#    #+#              #
-#    Updated: 2024/11/03 21:56:56 by danielpe         ###   ########.fr        #
+#    Updated: 2024/11/06 02:33:11 by danielpe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,20 +43,24 @@ SRCS = 	ft_isalpha.c \
 		ft_striteri.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
-						
+		ft_strmapi.c \
+		ft_itoa.c \
+		ft_split.c
+
 MANDATORY_OBJS = $(SRCS:.c=.o)
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-all: $(NAME)
 
 $(NAME): $(MANDATORY_OBJS)
 		ar rcs $@ $^
-		
+
 %.o: %.c libft.h
 		$(CC) $(CFLAGS) -c $< -o $@
-		
+
+all: $(NAME)
+
 clean:
 		rm -f $(MANDATORY_OBJS) 
 		
@@ -65,4 +69,5 @@ fclean: clean
 		
 re: fclean all
 
-.PHONY: all clean re 
+.PHONY: all clean re fclean
+.DEFAULT_GOAL := all
