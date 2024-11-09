@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 15:19:21 by danielpe          #+#    #+#             */
-/*   Updated: 2024/11/03 16:25:07 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:17:39 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {

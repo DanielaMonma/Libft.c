@@ -6,7 +6,7 @@
 #    By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/22 14:44:24 by danielpe          #+#    #+#              #
-#    Updated: 2024/11/06 02:33:11 by danielpe         ###   ########.fr        #
+#    Updated: 2024/11/09 16:11:24 by danielpe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -63,10 +63,10 @@ all: $(NAME)
 
 clean:
 		rm -f $(MANDATORY_OBJS) 
-		
+
 fclean: clean
 		rm -f $(NAME)
-		
+
 re: fclean all
 
 .PHONY: all clean re fclean

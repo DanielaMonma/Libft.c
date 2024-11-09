@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 17:40:25 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/27 18:03:42 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:15:48 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

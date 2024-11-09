@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 20:02:07 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/27 12:51:05 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:15:37 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {

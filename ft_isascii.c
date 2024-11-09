@@ -6,11 +6,9 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 14:56:26 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/22 17:21:04 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:13:45 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isascii(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 21:36:10 by danielpe          #+#    #+#             */
-/*   Updated: 2024/11/01 20:58:30 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:31:22 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

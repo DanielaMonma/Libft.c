@@ -6,7 +6,7 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 13:03:52 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/27 16:00:35 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/09 16:10:10 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 
-i = ((int)ft_strlen(s)+1);
+	i = ((int)ft_strlen(s)+1);
 	while (i--)
 	{
 		if (s[i] == (unsigned char)c)

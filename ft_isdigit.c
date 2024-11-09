@@ -6,11 +6,9 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 22:00:12 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/22 20:43:42 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:13:55 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {

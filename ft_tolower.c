@@ -6,11 +6,9 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 18:02:36 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/22 21:27:14 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:29:27 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_tolower(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 18:38:29 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/26 19:43:46 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:17:29 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

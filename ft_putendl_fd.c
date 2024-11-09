@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 21:49:10 by danielpe          #+#    #+#             */
-/*   Updated: 2024/11/03 22:05:49 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:17:00 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

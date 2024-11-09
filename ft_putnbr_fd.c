@@ -6,11 +6,11 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 21:57:57 by danielpe          #+#    #+#             */
-/*   Updated: 2024/11/03 22:03:54 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:17:09 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"libft.h"
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

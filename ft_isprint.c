@@ -6,11 +6,9 @@
 /*   By: danielpe <danielpe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 16:49:29 by danielpe          #+#    #+#             */
-/*   Updated: 2024/10/22 17:21:56 by danielpe         ###   ########.fr       */
+/*   Updated: 2024/11/06 03:14:12 by danielpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {
